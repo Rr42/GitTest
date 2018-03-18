@@ -1,2 +1,12 @@
 Clone command:
 git clone <Repository link>;
+
+Pull command:
+git pull;
+
+Push command:
+git push;
+
+Clean command:
+(Removes untracked files from the working tree)
+git clean;
