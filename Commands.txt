@@ -10,3 +10,19 @@ git push;
 Clean command:
 (Removes untracked files from the working tree)
 git clean;
+
+Generate GPG key:
+gpg --gen-key;
+
+Configure git to use GPG key:
+git config --global user.signingkey <HEX-key>;
+
+Eg. git config --global user.signingkey 0A46826A
+
+Export key for adding to GitHub:
+gpg --armor --export <HEX-key>;
+
+Eg. gpg --armor --export 3AA5C34371567BD2
+
+List current GPG keys:
+gpg --list-keys;
