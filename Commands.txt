@@ -10,6 +10,9 @@ git push;
 Commit command:
 git commit -m 'Commit message';
 
+Fetch command:
+git fetch;
+
 Clean command:
 (Removes untracked files from the working tree)
 git clean;
@@ -38,4 +41,7 @@ git config --global commit.gpgSign true
 
 Signing commits seprately:
 git commit -a -S -m 'Commit message';
+
+Check current commit status:
+git status;
 
