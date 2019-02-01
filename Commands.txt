@@ -7,6 +7,9 @@ git pull;
 Push command:
 git push;
 
+Commit command:
+git commit -m 'Commit message';
+
 Clean command:
 (Removes untracked files from the working tree)
 git clean;
@@ -35,3 +38,4 @@ git config --global commit.gpgSign true
 
 Signing commits seprately:
 git commit -a -S -m 'Commit message';
+
