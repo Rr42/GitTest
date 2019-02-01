@@ -26,3 +26,7 @@ Eg. gpg --armor --export 3AA5C34371567BD2
 
 List current GPG keys:
 gpg --list-keys;
+
+List all secret keys:
+gpg --list-secret-keys --keyid-format LONG
+
