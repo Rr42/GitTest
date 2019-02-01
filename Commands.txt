@@ -7,6 +7,9 @@ git pull;
 Push command:
 git push;
 
+Fetch command:
+git fetch;
+
 Clean command:
 (Removes untracked files from the working tree)
 git clean;
