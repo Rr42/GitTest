@@ -32,3 +32,6 @@ gpg --list-secret-keys --keyid-format LONG
 
 Set git to globally sign commits:
 git config --global commit.gpgSign true
+
+Signing commits seprately:
+git commit -a -S -m 'Commit message';
