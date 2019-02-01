@@ -35,3 +35,6 @@ git config --global commit.gpgSign true
 
 Signing commits seprately:
 git commit -a -S -m 'Commit message';
+
+Check current commit status:
+git status;
