@@ -34,7 +34,7 @@ List current GPG keys:
 gpg --list-keys;
 
 List all secret keys:
-gpg --list-secret-keys --keyid-format LONG
+gpg --list-secret-keys --keyid-format LONG;
 
 Set git to globally sign commits:
 git config --global commit.gpgSign true
