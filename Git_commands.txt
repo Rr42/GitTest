@@ -45,3 +45,8 @@ git commit -a -S -m 'Commit message';
 Check current commit status:
 git status;
 
+Test SSH connection:
+ssh -T git@github.com;
+
+
+
