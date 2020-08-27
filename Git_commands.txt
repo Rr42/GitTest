@@ -48,5 +48,8 @@ git status;
 Test SSH connection:
 ssh -T git@github.com;
 
+Create new repo:
+git init
+
 
 
